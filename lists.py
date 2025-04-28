@@ -1,7 +1,9 @@
 # Replace the "ANSWER HERE" with your answer
 
 def remove_elements(list_to_remove_elements):
-    return "ANSWER HERE"  # Remove this line and implement
+    del list_to_remove_elements[0]
+    del list_to_remove_elements[3:]
+    print(list_to_remove_elements)
 
 
 def add_elements(list_to_add_elements):
