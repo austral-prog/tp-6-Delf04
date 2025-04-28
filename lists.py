@@ -1,9 +1,8 @@
 # Replace the "ANSWER HERE" with your answer
 
 def remove_elements(list_to_remove_elements):
-    del list_to_remove_elements[0]
-    del list_to_remove_elements[3:]
-    print(list_to_remove_elements)
+       lista = list_to_remove_elements[1:4]
+       print(lista)
 
 
 def add_elements(list_to_add_elements):
