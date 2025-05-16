@@ -27,14 +27,14 @@ def check_lists(list_to_compare1, list_to_compare2):
 
 
 def list_of_lists(list_of_lists_to_modify):
-    if len(list_to_compare1) >= 3 and len(list_to_compare2) >= 3:
-       return list_to_compare1[2] == list_to_compare2[2]
-    return False
+    if len(list_of_lists_to_modify) != 3:
+        return list_of_lists_to_modify
     
     return [
-        list_of_lists_to_modify[0][:2],  # Primera lista: primeros 2 elementos
+        list_of_lists_to_modify[0][:2],  
         list_of_lists_to_modify[1][1:4] 
         if len(list_of_lists_to_modify[1]) >= 4 
-        else list_of_lists_to_modify[1][1:],  # Segunda: elementos 1-3
+        else list_of_lists_to_modify[1][1:],  
         list_of_lists_to_modify[2][-2:]
     ]
+    
